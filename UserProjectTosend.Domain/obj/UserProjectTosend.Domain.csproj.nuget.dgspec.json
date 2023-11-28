@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Giorgi\\source\\repos\\UserProjectToSend\\UserProjectTosend.Domain\\UserProjectTosend.Domain.csproj": {}
+    "C:\\Users\\Giorgi\\Desktop\\UserProjectToSend\\UserProjectTosend.Domain\\UserProjectTosend.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Giorgi\\source\\repos\\UserProjectToSend\\UserProjectTosend.Domain\\UserProjectTosend.Domain.csproj": {
+    "C:\\Users\\Giorgi\\Desktop\\UserProjectToSend\\UserProjectTosend.Domain\\UserProjectTosend.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Giorgi\\source\\repos\\UserProjectToSend\\UserProjectTosend.Domain\\UserProjectTosend.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Giorgi\\Desktop\\UserProjectToSend\\UserProjectTosend.Domain\\UserProjectTosend.Domain.csproj",
         "projectName": "UserProjectTosend.Domain",
-        "projectPath": "C:\\Users\\Giorgi\\source\\repos\\UserProjectToSend\\UserProjectTosend.Domain\\UserProjectTosend.Domain.csproj",
+        "projectPath": "C:\\Users\\Giorgi\\Desktop\\UserProjectToSend\\UserProjectTosend.Domain\\UserProjectTosend.Domain.csproj",
         "packagesPath": "C:\\Users\\Giorgi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Giorgi\\source\\repos\\UserProjectToSend\\UserProjectTosend.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Giorgi\\Desktop\\UserProjectToSend\\UserProjectTosend.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Giorgi\\AppData\\Roaming\\NuGet\\NuGet.Config",

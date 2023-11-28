@@ -3854,11 +3854,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Giorgi\\source\\repos\\UserProjectToSend\\UserProjectToSend.Dal\\UserProjectToSend.Dal.csproj",
+      "projectUniqueName": "C:\\Users\\Giorgi\\Desktop\\UserProjectToSend\\UserProjectToSend.Dal\\UserProjectToSend.Dal.csproj",
       "projectName": "UserProjectToSend.Dal",
-      "projectPath": "C:\\Users\\Giorgi\\source\\repos\\UserProjectToSend\\UserProjectToSend.Dal\\UserProjectToSend.Dal.csproj",
+      "projectPath": "C:\\Users\\Giorgi\\Desktop\\UserProjectToSend\\UserProjectToSend.Dal\\UserProjectToSend.Dal.csproj",
       "packagesPath": "C:\\Users\\Giorgi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Giorgi\\source\\repos\\UserProjectToSend\\UserProjectToSend.Dal\\obj\\",
+      "outputPath": "C:\\Users\\Giorgi\\Desktop\\UserProjectToSend\\UserProjectToSend.Dal\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Giorgi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3875,8 +3875,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Giorgi\\source\\repos\\UserProjectToSend\\UserProjectTosend.Domain\\UserProjectTosend.Domain.csproj": {
-              "projectPath": "C:\\Users\\Giorgi\\source\\repos\\UserProjectToSend\\UserProjectTosend.Domain\\UserProjectTosend.Domain.csproj"
+            "C:\\Users\\Giorgi\\Desktop\\UserProjectToSend\\UserProjectTosend.Domain\\UserProjectTosend.Domain.csproj": {
+              "projectPath": "C:\\Users\\Giorgi\\Desktop\\UserProjectToSend\\UserProjectTosend.Domain\\UserProjectTosend.Domain.csproj"
             }
           }
         }

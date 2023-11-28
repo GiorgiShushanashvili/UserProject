@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Giorgi\\source\\repos\\UserProjectToSend\\UserProjectToSend\\UserProjectToSend.csproj": {}
+    "C:\\Users\\Giorgi\\Desktop\\UserProjectToSend\\UserProjectToSend\\UserProjectToSend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Giorgi\\source\\repos\\UserProjectToSend\\UserProjectToSend\\UserProjectToSend.csproj": {
+    "C:\\Users\\Giorgi\\Desktop\\UserProjectToSend\\UserProjectToSend\\UserProjectToSend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Giorgi\\source\\repos\\UserProjectToSend\\UserProjectToSend\\UserProjectToSend.csproj",
+        "projectUniqueName": "C:\\Users\\Giorgi\\Desktop\\UserProjectToSend\\UserProjectToSend\\UserProjectToSend.csproj",
         "projectName": "UserProjectToSend",
-        "projectPath": "C:\\Users\\Giorgi\\source\\repos\\UserProjectToSend\\UserProjectToSend\\UserProjectToSend.csproj",
+        "projectPath": "C:\\Users\\Giorgi\\Desktop\\UserProjectToSend\\UserProjectToSend\\UserProjectToSend.csproj",
         "packagesPath": "C:\\Users\\Giorgi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Giorgi\\source\\repos\\UserProjectToSend\\UserProjectToSend\\obj\\",
+        "outputPath": "C:\\Users\\Giorgi\\Desktop\\UserProjectToSend\\UserProjectToSend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Giorgi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.12, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"

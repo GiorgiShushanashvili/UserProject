@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yL3eWpAV1KjjuEywoFZ8KNzC39je5PckW/E713YRRTI8moJm2RPv6LxV2aE5XI+g4HNy++D12T5Cebu3a4nh9Q==",
+  "dgSpecHash": "gHaceRuw3YFUmdpfbzMHXEp+ee8J3QrLP43NkKk9GlTWRYA+jCshwSWzJwAAckYNqCzoODpRQRqiU4+eNVn7gQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Giorgi\\source\\repos\\UserProjectToSend\\UserProjectToSend.Dal\\UserProjectToSend.Dal.csproj",
+  "projectFilePath": "C:\\Users\\Giorgi\\Desktop\\UserProjectToSend\\UserProjectToSend.Dal\\UserProjectToSend.Dal.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Giorgi\\.nuget\\packages\\fluentvalidation\\11.8.1\\fluentvalidation.11.8.1.nupkg.sha512",
     "C:\\Users\\Giorgi\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
