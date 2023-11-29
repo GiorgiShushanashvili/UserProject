@@ -11,14 +11,16 @@
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.12" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.12" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.12">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
+    <ProjectReference Include="..\UserProjectToSend.Apliaction\UserProjectToSend.Apliaction.csproj" />
+    <ProjectReference Include="..\UserProjectToSend.CrossCutting\UserProjectToSend.CrossCutting.csproj" />
     <ProjectReference Include="..\UserProjectToSend.Dal\UserProjectToSend.Dal.csproj" />
   </ItemGroup>
 

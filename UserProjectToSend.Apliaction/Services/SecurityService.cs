@@ -1,30 +1,23 @@
-﻿using Microsoft.AspNetCore.Cryptography.KeyDerivation;
-using Microsoft.AspNetCore.Http;
-using Microsoft.Extensions.Configuration;
+﻿using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
-using System;
-using System.Collections.Generic;
-using System.Data;
 using System.IdentityModel.Tokens.Jwt;
-using System.Linq;
 using System.Security.Claims;
 using System.Text;
-using System.Threading.Tasks;
-using UserProjectToSend.Apliaction.Asbtractions;
 
 namespace UserProjectToSend.Apliaction.Services;
+
+using System.Security.Cryptography;
+using UserProjectToSend.Apliaction.AbstractionServices;
 
 public class SecurityService:ISecurityService
 {
     private readonly IConfiguration _configuration;
-    private readonly IHttpContextAccessor _httpContextAccessor;
-    public SecurityService(IConfiguration configuration, IHttpContextAccessor httpContextAccessor)
+    public SecurityService(IConfiguration configuration)
     {
         _configuration = configuration;
-        _httpContextAccessor = httpContextAccessor;
     }
     #region PasswordHash
-    public byte[] GetPasswordHash(string password, byte[] passwordSalt)
+    /*public byte[] GetPasswordHash(string password, byte[] passwordSalt)
     {
         string PasswordSaltPlusString = _configuration.GetSection("AppSettings:PasswordKey").Value + Convert.ToBase64String(passwordSalt);
 
@@ -36,10 +29,18 @@ public class SecurityService:ISecurityService
             numBytesRequested: 256 / 8
         );
         return passwordHash;
+    }*/
+    public string GetPasswordHash(string password)
+    {
+        var sha1 = new SHA1CryptoServiceProvider();
+
+        byte[] password_bytes = Encoding.ASCII.GetBytes(password);
+        byte[] encrypted_bytes = sha1.ComputeHash(password_bytes);
+        return Convert.ToBase64String(encrypted_bytes);
     }
     #endregion
 
-    public dynamic CreateToken(int userId, string role)
+    public dynamic CreateToken(int userId)
     {
         List<Claim> claims = new List<Claim>
         {
@@ -50,7 +51,7 @@ public class SecurityService:ISecurityService
             SymmetricSecurityKey tokenKey = new SymmetricSecurityKey(
                 Encoding.UTF8.GetBytes(_configuration.GetSection("Token").Value));
 
-            SigningCredentials credentials = new SigningCredentials(tokenKey, SecurityAlgorithms.HmacSha512);
+            SigningCredentials credentials = new SigningCredentials(tokenKey, SecurityAlgorithms.HmacSha256);
 
             SecurityTokenDescriptor descriptor = new SecurityTokenDescriptor()
             {
@@ -62,16 +63,8 @@ public class SecurityService:ISecurityService
             JwtSecurityTokenHandler tokenHandler = new JwtSecurityTokenHandler();
             SecurityToken token = tokenHandler.CreateToken(descriptor);
             string tokenString = tokenHandler.WriteToken(token);
-            /*_httpContextAccessor.HttpContext?.Response.Cookies.Append("token", tokenString, new CookieOptions
-            {
-                Expires = DateTime.Now.AddDays(1),
-                HttpOnly = true,
-                Secure = true,
-                IsEssential = true,
-                SameSite = SameSiteMode.None
-            });*/
 
-            return (tokenString, descriptor.Expires.ToString());
+            return tokenString;
         }
         catch (Exception e)
         {

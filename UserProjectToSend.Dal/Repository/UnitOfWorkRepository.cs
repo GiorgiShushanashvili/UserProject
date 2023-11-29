@@ -14,11 +14,9 @@ public class UnitOfWorkRepository:IUnitOfWorkRepository
     public IUserRepository _userRepository;
     public IUserProfileRepository _userProfileRepository;
     private bool _disposed;
-    public UnitOfWorkRepository(UserProjectDbContext context/*,IUserProfileRepository userProfileRepository,IUserRepository userRepository*/)
+    public UnitOfWorkRepository(UserProjectDbContext context)
     {
         _context = context;
-        //this.UserRepository = userRepository;
-        //this.UserProfileRepository = userProfileRepository;
         _disposed = false;
     }
     public IUserProfileRepository UserProfileRepository => _userProfileRepository ??= new UserProfileRepository(_context);

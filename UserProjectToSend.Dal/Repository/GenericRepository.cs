@@ -20,7 +20,7 @@ public class GenericRepository<T>:IGenericRepository<T> where T : class
         _dbSet = _context.Set<T>();
     }
 
-    public IQueryable<T> Table => _dbset;
+    public IQueryable<T> Table => _dbSet;
 
     public virtual async Task<IQueryable<T>> GetAllAsync()
     {
@@ -30,6 +30,11 @@ public class GenericRepository<T>:IGenericRepository<T> where T : class
     public virtual async Task<T?> GetByIdAsync(int id)
     {
         return await _dbSet.FindAsync(id);
+    }
+
+    public virtual async Task<T?> FindAsync(Expression<Func<T, bool>> predicate)
+    {
+        return await _dbSet.FirstOrDefaultAsync(predicate);
     }
 
     public ValueTask UpdateAsync(T entity)

@@ -11,7 +11,7 @@ public interface IGenericRepository<T> where T : class
 {
     public Task<IQueryable<T>> GetAllAsync();
     public Task<T?> GetByIdAsync(int id);
-    //public Task<T?> FindAsync(Expression<Func<T, bool>> predicate);
+    public Task<T?> FindAsync(Expression<Func<T, bool>> predicate);
     public ValueTask AddAsync(T entity);
     public ValueTask UpdateAsync(T entity);
     public ValueTask DeleteAsync(T entity);

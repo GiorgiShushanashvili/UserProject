@@ -8,8 +8,8 @@ namespace UserProjectTosend.Domain.DTOs;
 
 public class UserProfileDTO
 {
+    public int Id { get; set; }
     public string firstName { get;set; }
     public string lastName { get;set; }
     public string personalNumber { get;set; }
-    public int userId { get; set; }
 }

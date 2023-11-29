@@ -1,11 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using UserProjectTosend.Domain.Abstractions;
-using UserProjectToSend.Apliaction.Asbtractions;
+using UserProjectToSend.Apliaction.AbstractionServices;
 using UserProjectToSend.Apliaction.Services;
 using UserProjectToSend.Dal.Repository;
 
@@ -15,11 +10,15 @@ public static class IoCRegister
 {
     public static IServiceCollection AddCommonServices(this IServiceCollection services)
     {
-
+        AddServices(services);
+        AddRepositories(services);
+        AddCorsService(services);
+        return services;
     }
 
     private static IServiceCollection AddServices(IServiceCollection services)
     {
+        services.AddScoped<IAuthorizationService, AuthorizationService>();
         services.AddScoped<IUserService, UserService>();
         services.AddScoped<IUserProfileService, UserProfileService>();
         services.AddScoped<ISecurityService, SecurityService>();

@@ -12,5 +12,5 @@ public class UserProfile
     public string FirstName { get; set; }
     public string LastName { get; set; }
     public string personalNumber { get; set; }
-    public User? User { get; set; }
+    public int UserId { get; set; }
 }
