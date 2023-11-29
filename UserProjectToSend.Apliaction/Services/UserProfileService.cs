@@ -49,28 +49,4 @@ public class UserProfileService:IUserProfileService
             throw e;
         }
     }
-
-    /*public async Task AddNewUserProfileAsync(UserProfileDTO profile)
-    {
-        var check = await _unitOfWorkRepository.UserProfileRepository.Table.AnyAsync(x=>x.personalNumber == profile.personalNumber);
-        if(check) throw new UserProfileAlreadyExistsException();
-        await _unitOfWorkRepository.UserProfileRepository.AddAsync(_mapper.Map<UserProfile>(profile));
-        await _unitOfWorkRepository.SaveChangesAsync();
-    }*/
-
-    /*public async Task UpdateUserProfileAsync(UserProfileToUpdateDTO profile)
-    {
-        var userProfile = await _unitOfWorkRepository.UserProfileRepository.GetByIdAsync(profile.Id);
-        if (userProfile == null) throw new NoUsersException();
-        await _unitOfWorkRepository.UserProfileRepository.UpdateAsync(_mapper.Map<UserProfile>(profile));
-        await _unitOfWorkRepository.SaveChangesAsync();
-    }*/
-
-    /*public async Task DeleteUserProfileAsync(int id)
-    {
-        var userToDelete = await _unitOfWorkRepository.UserProfileRepository.GetByIdAsync(id);
-        if (userToDelete == null) throw new NoUsersException();
-        await _unitOfWorkRepository.UserProfileRepository.DeleteAsync(userToDelete);
-        await _unitOfWorkRepository.SaveChangesAsync();
-    }*/
 }

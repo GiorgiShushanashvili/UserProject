@@ -1,35 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Giorgi\\Desktop\\UserProjectToSend\\UserProjectToSend\\UserProjectToSend.csproj": {}
+    "/Users/giorgishushanashvili/Desktop/userProjectToSend/UserProject/UserProjectToSend/UserProjectToSend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Giorgi\\Desktop\\UserProjectToSend\\UserProjectToSend.Apliaction\\UserProjectToSend.Apliaction.csproj": {
+    "/Users/giorgishushanashvili/Desktop/userProjectToSend/UserProject/UserProjectToSend.Apliaction/UserProjectToSend.Apliaction.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Giorgi\\Desktop\\UserProjectToSend\\UserProjectToSend.Apliaction\\UserProjectToSend.Apliaction.csproj",
+        "projectUniqueName": "/Users/giorgishushanashvili/Desktop/userProjectToSend/UserProject/UserProjectToSend.Apliaction/UserProjectToSend.Apliaction.csproj",
         "projectName": "UserProjectToSend.Apliaction",
-        "projectPath": "C:\\Users\\Giorgi\\Desktop\\UserProjectToSend\\UserProjectToSend.Apliaction\\UserProjectToSend.Apliaction.csproj",
-        "packagesPath": "C:\\Users\\Giorgi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Giorgi\\Desktop\\UserProjectToSend\\UserProjectToSend.Apliaction\\obj\\",
+        "projectPath": "/Users/giorgishushanashvili/Desktop/userProjectToSend/UserProject/UserProjectToSend.Apliaction/UserProjectToSend.Apliaction.csproj",
+        "packagesPath": "/Users/giorgishushanashvili/.nuget/packages/",
+        "outputPath": "/Users/giorgishushanashvili/Desktop/userProjectToSend/UserProject/UserProjectToSend.Apliaction/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Giorgi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/giorgishushanashvili/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Giorgi\\Desktop\\UserProjectToSend\\UserProjectTosend.Domain\\UserProjectTosend.Domain.csproj": {
-                "projectPath": "C:\\Users\\Giorgi\\Desktop\\UserProjectToSend\\UserProjectTosend.Domain\\UserProjectTosend.Domain.csproj"
+              "/Users/giorgishushanashvili/Desktop/userProjectToSend/UserProject/UserProjectTosend.Domain/UserProjectTosend.Domain.csproj": {
+                "projectPath": "/Users/giorgishushanashvili/Desktop/userProjectToSend/UserProject/UserProjectTosend.Domain/UserProjectTosend.Domain.csproj"
               }
             }
           }
@@ -89,42 +87,40 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Giorgi\\Desktop\\UserProjectToSend\\UserProjectToSend.CrossCutting\\UserProjectToSend.CrossCutting.csproj": {
+    "/Users/giorgishushanashvili/Desktop/userProjectToSend/UserProject/UserProjectToSend.CrossCutting/UserProjectToSend.CrossCutting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Giorgi\\Desktop\\UserProjectToSend\\UserProjectToSend.CrossCutting\\UserProjectToSend.CrossCutting.csproj",
+        "projectUniqueName": "/Users/giorgishushanashvili/Desktop/userProjectToSend/UserProject/UserProjectToSend.CrossCutting/UserProjectToSend.CrossCutting.csproj",
         "projectName": "UserProjectToSend.CrossCutting",
-        "projectPath": "C:\\Users\\Giorgi\\Desktop\\UserProjectToSend\\UserProjectToSend.CrossCutting\\UserProjectToSend.CrossCutting.csproj",
-        "packagesPath": "C:\\Users\\Giorgi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Giorgi\\Desktop\\UserProjectToSend\\UserProjectToSend.CrossCutting\\obj\\",
+        "projectPath": "/Users/giorgishushanashvili/Desktop/userProjectToSend/UserProject/UserProjectToSend.CrossCutting/UserProjectToSend.CrossCutting.csproj",
+        "packagesPath": "/Users/giorgishushanashvili/.nuget/packages/",
+        "outputPath": "/Users/giorgishushanashvili/Desktop/userProjectToSend/UserProject/UserProjectToSend.CrossCutting/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Giorgi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/giorgishushanashvili/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Giorgi\\Desktop\\UserProjectToSend\\UserProjectToSend.Apliaction\\UserProjectToSend.Apliaction.csproj": {
-                "projectPath": "C:\\Users\\Giorgi\\Desktop\\UserProjectToSend\\UserProjectToSend.Apliaction\\UserProjectToSend.Apliaction.csproj"
+              "/Users/giorgishushanashvili/Desktop/userProjectToSend/UserProject/UserProjectToSend.Apliaction/UserProjectToSend.Apliaction.csproj": {
+                "projectPath": "/Users/giorgishushanashvili/Desktop/userProjectToSend/UserProject/UserProjectToSend.Apliaction/UserProjectToSend.Apliaction.csproj"
               },
-              "C:\\Users\\Giorgi\\Desktop\\UserProjectToSend\\UserProjectToSend.Dal\\UserProjectToSend.Dal.csproj": {
-                "projectPath": "C:\\Users\\Giorgi\\Desktop\\UserProjectToSend\\UserProjectToSend.Dal\\UserProjectToSend.Dal.csproj"
+              "/Users/giorgishushanashvili/Desktop/userProjectToSend/UserProject/UserProjectToSend.Dal/UserProjectToSend.Dal.csproj": {
+                "projectPath": "/Users/giorgishushanashvili/Desktop/userProjectToSend/UserProject/UserProjectToSend.Dal/UserProjectToSend.Dal.csproj"
               },
-              "C:\\Users\\Giorgi\\Desktop\\UserProjectToSend\\UserProjectTosend.Domain\\UserProjectTosend.Domain.csproj": {
-                "projectPath": "C:\\Users\\Giorgi\\Desktop\\UserProjectToSend\\UserProjectTosend.Domain\\UserProjectTosend.Domain.csproj"
+              "/Users/giorgishushanashvili/Desktop/userProjectToSend/UserProject/UserProjectTosend.Domain/UserProjectTosend.Domain.csproj": {
+                "projectPath": "/Users/giorgishushanashvili/Desktop/userProjectToSend/UserProject/UserProjectTosend.Domain/UserProjectTosend.Domain.csproj"
               }
             }
           }
@@ -168,36 +164,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Giorgi\\Desktop\\UserProjectToSend\\UserProjectToSend.Dal\\UserProjectToSend.Dal.csproj": {
+    "/Users/giorgishushanashvili/Desktop/userProjectToSend/UserProject/UserProjectToSend.Dal/UserProjectToSend.Dal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Giorgi\\Desktop\\UserProjectToSend\\UserProjectToSend.Dal\\UserProjectToSend.Dal.csproj",
+        "projectUniqueName": "/Users/giorgishushanashvili/Desktop/userProjectToSend/UserProject/UserProjectToSend.Dal/UserProjectToSend.Dal.csproj",
         "projectName": "UserProjectToSend.Dal",
-        "projectPath": "C:\\Users\\Giorgi\\Desktop\\UserProjectToSend\\UserProjectToSend.Dal\\UserProjectToSend.Dal.csproj",
-        "packagesPath": "C:\\Users\\Giorgi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Giorgi\\Desktop\\UserProjectToSend\\UserProjectToSend.Dal\\obj\\",
+        "projectPath": "/Users/giorgishushanashvili/Desktop/userProjectToSend/UserProject/UserProjectToSend.Dal/UserProjectToSend.Dal.csproj",
+        "packagesPath": "/Users/giorgishushanashvili/.nuget/packages/",
+        "outputPath": "/Users/giorgishushanashvili/Desktop/userProjectToSend/UserProject/UserProjectToSend.Dal/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Giorgi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/giorgishushanashvili/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Giorgi\\Desktop\\UserProjectToSend\\UserProjectTosend.Domain\\UserProjectTosend.Domain.csproj": {
-                "projectPath": "C:\\Users\\Giorgi\\Desktop\\UserProjectToSend\\UserProjectTosend.Domain\\UserProjectTosend.Domain.csproj"
+              "/Users/giorgishushanashvili/Desktop/userProjectToSend/UserProject/UserProjectTosend.Domain/UserProjectTosend.Domain.csproj": {
+                "projectPath": "/Users/giorgishushanashvili/Desktop/userProjectToSend/UserProject/UserProjectTosend.Domain/UserProjectTosend.Domain.csproj"
               }
             }
           }
@@ -239,28 +233,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Giorgi\\Desktop\\UserProjectToSend\\UserProjectTosend.Domain\\UserProjectTosend.Domain.csproj": {
+    "/Users/giorgishushanashvili/Desktop/userProjectToSend/UserProject/UserProjectTosend.Domain/UserProjectTosend.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Giorgi\\Desktop\\UserProjectToSend\\UserProjectTosend.Domain\\UserProjectTosend.Domain.csproj",
+        "projectUniqueName": "/Users/giorgishushanashvili/Desktop/userProjectToSend/UserProject/UserProjectTosend.Domain/UserProjectTosend.Domain.csproj",
         "projectName": "UserProjectTosend.Domain",
-        "projectPath": "C:\\Users\\Giorgi\\Desktop\\UserProjectToSend\\UserProjectTosend.Domain\\UserProjectTosend.Domain.csproj",
-        "packagesPath": "C:\\Users\\Giorgi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Giorgi\\Desktop\\UserProjectToSend\\UserProjectTosend.Domain\\obj\\",
+        "projectPath": "/Users/giorgishushanashvili/Desktop/userProjectToSend/UserProject/UserProjectTosend.Domain/UserProjectTosend.Domain.csproj",
+        "packagesPath": "/Users/giorgishushanashvili/.nuget/packages/",
+        "outputPath": "/Users/giorgishushanashvili/Desktop/userProjectToSend/UserProject/UserProjectTosend.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Giorgi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/giorgishushanashvili/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -334,42 +326,40 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Giorgi\\Desktop\\UserProjectToSend\\UserProjectToSend\\UserProjectToSend.csproj": {
+    "/Users/giorgishushanashvili/Desktop/userProjectToSend/UserProject/UserProjectToSend/UserProjectToSend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Giorgi\\Desktop\\UserProjectToSend\\UserProjectToSend\\UserProjectToSend.csproj",
+        "projectUniqueName": "/Users/giorgishushanashvili/Desktop/userProjectToSend/UserProject/UserProjectToSend/UserProjectToSend.csproj",
         "projectName": "UserProjectToSend",
-        "projectPath": "C:\\Users\\Giorgi\\Desktop\\UserProjectToSend\\UserProjectToSend\\UserProjectToSend.csproj",
-        "packagesPath": "C:\\Users\\Giorgi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Giorgi\\Desktop\\UserProjectToSend\\UserProjectToSend\\obj\\",
+        "projectPath": "/Users/giorgishushanashvili/Desktop/userProjectToSend/UserProject/UserProjectToSend/UserProjectToSend.csproj",
+        "packagesPath": "/Users/giorgishushanashvili/.nuget/packages/",
+        "outputPath": "/Users/giorgishushanashvili/Desktop/userProjectToSend/UserProject/UserProjectToSend/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Giorgi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/giorgishushanashvili/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Giorgi\\Desktop\\UserProjectToSend\\UserProjectToSend.Apliaction\\UserProjectToSend.Apliaction.csproj": {
-                "projectPath": "C:\\Users\\Giorgi\\Desktop\\UserProjectToSend\\UserProjectToSend.Apliaction\\UserProjectToSend.Apliaction.csproj"
+              "/Users/giorgishushanashvili/Desktop/userProjectToSend/UserProject/UserProjectToSend.Apliaction/UserProjectToSend.Apliaction.csproj": {
+                "projectPath": "/Users/giorgishushanashvili/Desktop/userProjectToSend/UserProject/UserProjectToSend.Apliaction/UserProjectToSend.Apliaction.csproj"
               },
-              "C:\\Users\\Giorgi\\Desktop\\UserProjectToSend\\UserProjectToSend.CrossCutting\\UserProjectToSend.CrossCutting.csproj": {
-                "projectPath": "C:\\Users\\Giorgi\\Desktop\\UserProjectToSend\\UserProjectToSend.CrossCutting\\UserProjectToSend.CrossCutting.csproj"
+              "/Users/giorgishushanashvili/Desktop/userProjectToSend/UserProject/UserProjectToSend.CrossCutting/UserProjectToSend.CrossCutting.csproj": {
+                "projectPath": "/Users/giorgishushanashvili/Desktop/userProjectToSend/UserProject/UserProjectToSend.CrossCutting/UserProjectToSend.CrossCutting.csproj"
               },
-              "C:\\Users\\Giorgi\\Desktop\\UserProjectToSend\\UserProjectToSend.Dal\\UserProjectToSend.Dal.csproj": {
-                "projectPath": "C:\\Users\\Giorgi\\Desktop\\UserProjectToSend\\UserProjectToSend.Dal\\UserProjectToSend.Dal.csproj"
+              "/Users/giorgishushanashvili/Desktop/userProjectToSend/UserProject/UserProjectToSend.Dal/UserProjectToSend.Dal.csproj": {
+                "projectPath": "/Users/giorgishushanashvili/Desktop/userProjectToSend/UserProject/UserProjectToSend.Dal/UserProjectToSend.Dal.csproj"
               }
             }
           }
@@ -430,7 +420,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
         }
       }
     }

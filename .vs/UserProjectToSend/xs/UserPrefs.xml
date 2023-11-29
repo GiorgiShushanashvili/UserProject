@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{714CEFAF-5DC6-450D-B80F-DDA79A6589B1}|Default">
+  <MonoDevelop.Ide.ItemProperties.UserProjectToSend PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="UserProjectToSend.Apliaction/Services/UserProfileService.cs">
+    <Files>
+      <File FileName="UserProjectToSend/ApplicationServiceRegistration.cs" Line="15" Column="42" />
+      <File FileName="UserProjectToSend.Apliaction/Mapper/UserProfileMapper.cs" Line="11" Column="9" />
+      <File FileName="UserProjectToSend.Apliaction/Services/UserService.cs" Line="1" Column="1" />
+      <File FileName="UserProjectToSend.Apliaction/Services/UserProfileService.cs" Line="51" Column="6" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="UserProjectToSend" expanded="True">
+            <Node name="UserProjectToSend" expanded="True" />
+            <Node name="UserProjectToSend.Apliaction" expanded="True">
+              <Node name="Mapper" expanded="True" />
+              <Node name="Services" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
