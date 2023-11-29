@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "OGg+yWMm1rngz0065M8AOtwaXAPHDYhlM8x017xOMothWKF7eiQt2ddjbJ+q0Y0dYviee6Wv5eF7bVd17O8RNA==",
+  "dgSpecHash": "jO9R4gL10nt/vxLq41PDYTDDdbsMgeCAL4oNKX8eJ3R6M3o7wLkjNf6jLIo24/rMp1xmRd9POd98ZrFb3+Lfvg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Giorgi\\Desktop\\UserProjectToSend\\UserProjectToSend.CrossCutting\\UserProjectToSend.CrossCutting.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Giorgi\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Giorgi\\.nuget\\packages\\fluentvalidation\\11.8.1\\fluentvalidation.11.8.1.nupkg.sha512",
     "C:\\Users\\Giorgi\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.12\\microsoft.aspnetcore.authentication.jwtbearer.6.0.12.nupkg.sha512",
     "C:\\Users\\Giorgi\\.nuget\\packages\\microsoft.aspnetcore.cors\\2.2.0\\microsoft.aspnetcore.cors.2.2.0.nupkg.sha512",
@@ -12,6 +13,7 @@
     "C:\\Users\\Giorgi\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Giorgi\\.nuget\\packages\\microsoft.aspnetcore.http.extensions\\2.2.0\\microsoft.aspnetcore.http.extensions.2.2.0.nupkg.sha512",
     "C:\\Users\\Giorgi\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
+    "C:\\Users\\Giorgi\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Giorgi\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\Giorgi\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\Giorgi\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.12\\microsoft.entityframeworkcore.6.0.12.nupkg.sha512",

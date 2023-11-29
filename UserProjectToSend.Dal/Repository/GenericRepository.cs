@@ -20,6 +20,8 @@ public class GenericRepository<T>:IGenericRepository<T> where T : class
         _dbSet = _context.Set<T>();
     }
 
+    public IQueryable<T> Table => _dbset;
+
     public virtual async Task<IQueryable<T>> GetAllAsync()
     {
         return await Task.FromResult(_dbSet.AsNoTracking());
@@ -48,5 +50,9 @@ public class GenericRepository<T>:IGenericRepository<T> where T : class
     {
          _dbSet.Remove(entity);
         return ValueTask.CompletedTask;
+    }
+    public async Task<bool> AnyAsync(Expression<Func<T, bool>> predicate)
+    {
+        return await _dbSet.AnyAsync(predicate);
     }
 }

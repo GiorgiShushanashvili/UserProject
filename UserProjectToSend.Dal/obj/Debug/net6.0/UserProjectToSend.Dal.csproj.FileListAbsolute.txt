@@ -1,0 +1,17 @@
+C:\Users\Giorgi\Desktop\UserProjectToSend\UserProjectToSend.Dal\bin\Debug\net6.0\UserProjectToSend.Dal.deps.json
+C:\Users\Giorgi\Desktop\UserProjectToSend\UserProjectToSend.Dal\bin\Debug\net6.0\UserProjectToSend.Dal.dll
+C:\Users\Giorgi\Desktop\UserProjectToSend\UserProjectToSend.Dal\bin\Debug\net6.0\UserProjectToSend.Dal.pdb
+C:\Users\Giorgi\Desktop\UserProjectToSend\UserProjectToSend.Dal\bin\Debug\net6.0\UserProjectTosend.Domain.dll
+C:\Users\Giorgi\Desktop\UserProjectToSend\UserProjectToSend.Dal\bin\Debug\net6.0\UserProjectTosend.Domain.pdb
+C:\Users\Giorgi\Desktop\UserProjectToSend\UserProjectToSend.Dal\obj\Debug\net6.0\UserProjectToSend.Dal.csproj.AssemblyReference.cache
+C:\Users\Giorgi\Desktop\UserProjectToSend\UserProjectToSend.Dal\obj\Debug\net6.0\UserProjectToSend.Dal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Giorgi\Desktop\UserProjectToSend\UserProjectToSend.Dal\obj\Debug\net6.0\UserProjectToSend.Dal.AssemblyInfoInputs.cache
+C:\Users\Giorgi\Desktop\UserProjectToSend\UserProjectToSend.Dal\obj\Debug\net6.0\UserProjectToSend.Dal.AssemblyInfo.cs
+C:\Users\Giorgi\Desktop\UserProjectToSend\UserProjectToSend.Dal\obj\Debug\net6.0\UserProjectToSend.Dal.csproj.CoreCompileInputs.cache
+C:\Users\Giorgi\Desktop\UserProjectToSend\UserProjectToSend.Dal\obj\Debug\net6.0\UserProjectToSend.Dal.csproj.CopyComplete
+C:\Users\Giorgi\Desktop\UserProjectToSend\UserProjectToSend.Dal\obj\Debug\net6.0\UserProjectToSend.Dal.dll
+C:\Users\Giorgi\Desktop\UserProjectToSend\UserProjectToSend.Dal\obj\Debug\net6.0\refint\UserProjectToSend.Dal.dll
+C:\Users\Giorgi\Desktop\UserProjectToSend\UserProjectToSend.Dal\obj\Debug\net6.0\UserProjectToSend.Dal.pdb
+C:\Users\Giorgi\Desktop\UserProjectToSend\UserProjectToSend.Dal\obj\Debug\net6.0\ref\UserProjectToSend.Dal.dll
+C:\Users\Giorgi\Desktop\UserProjectToSend\UserProjectToSend.Dal\bin\Debug\net6.0\UserProjectToSend.Dal.runtimeconfig.json
+C:\Users\Giorgi\Desktop\UserProjectToSend\UserProjectToSend.Dal\obj\Debug\net6.0\UserProjectToSend.Dal.genruntimeconfig.cache

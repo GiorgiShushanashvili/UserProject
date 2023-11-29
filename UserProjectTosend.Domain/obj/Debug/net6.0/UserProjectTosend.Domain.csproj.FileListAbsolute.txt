@@ -1,0 +1,14 @@
+C:\Users\Giorgi\Desktop\UserProjectToSend\UserProjectTosend.Domain\bin\Debug\net6.0\UserProjectTosend.Domain.deps.json
+C:\Users\Giorgi\Desktop\UserProjectToSend\UserProjectTosend.Domain\bin\Debug\net6.0\UserProjectTosend.Domain.runtimeconfig.json
+C:\Users\Giorgi\Desktop\UserProjectToSend\UserProjectTosend.Domain\bin\Debug\net6.0\UserProjectTosend.Domain.dll
+C:\Users\Giorgi\Desktop\UserProjectToSend\UserProjectTosend.Domain\bin\Debug\net6.0\UserProjectTosend.Domain.pdb
+C:\Users\Giorgi\Desktop\UserProjectToSend\UserProjectTosend.Domain\obj\Debug\net6.0\UserProjectTosend.Domain.csproj.AssemblyReference.cache
+C:\Users\Giorgi\Desktop\UserProjectToSend\UserProjectTosend.Domain\obj\Debug\net6.0\UserProjectTosend.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Giorgi\Desktop\UserProjectToSend\UserProjectTosend.Domain\obj\Debug\net6.0\UserProjectTosend.Domain.AssemblyInfoInputs.cache
+C:\Users\Giorgi\Desktop\UserProjectToSend\UserProjectTosend.Domain\obj\Debug\net6.0\UserProjectTosend.Domain.AssemblyInfo.cs
+C:\Users\Giorgi\Desktop\UserProjectToSend\UserProjectTosend.Domain\obj\Debug\net6.0\UserProjectTosend.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Giorgi\Desktop\UserProjectToSend\UserProjectTosend.Domain\obj\Debug\net6.0\UserProjectTosend.Domain.dll
+C:\Users\Giorgi\Desktop\UserProjectToSend\UserProjectTosend.Domain\obj\Debug\net6.0\refint\UserProjectTosend.Domain.dll
+C:\Users\Giorgi\Desktop\UserProjectToSend\UserProjectTosend.Domain\obj\Debug\net6.0\UserProjectTosend.Domain.pdb
+C:\Users\Giorgi\Desktop\UserProjectToSend\UserProjectTosend.Domain\obj\Debug\net6.0\UserProjectTosend.Domain.genruntimeconfig.cache
+C:\Users\Giorgi\Desktop\UserProjectToSend\UserProjectTosend.Domain\obj\Debug\net6.0\ref\UserProjectTosend.Domain.dll

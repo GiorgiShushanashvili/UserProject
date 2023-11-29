@@ -15,4 +15,6 @@ public interface IGenericRepository<T> where T : class
     public ValueTask AddAsync(T entity);
     public ValueTask UpdateAsync(T entity);
     public ValueTask DeleteAsync(T entity);
+    public Task<bool> AnyAsync(Expression<Func<T, bool>> predicate);
+    IQueryable<T> Table { get; }
 }

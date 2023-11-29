@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace UserProjectTosend.Domain.Exceptions;
 
-public class NoUserOnThisIdException:Exception
+public class NoUserOnThisNameException:Exception
 {
-    public NoUserOnThisIdException() : base("There Is No User For This Id") { }
+    public NoUserOnThisNameException() : base("There Is No User For This Name") { }
 }

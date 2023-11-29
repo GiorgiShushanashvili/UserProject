@@ -11,16 +11,18 @@ namespace UserProjectToSend.Dal.Repository;
 public class UnitOfWorkRepository:IUnitOfWorkRepository
 {
     private readonly UserProjectDbContext _context;
-    public IUserRepository UserRepository { get; }
-    public IUserProfileRepository UserProfileRepository { get; }
+    public IUserRepository _userRepository;
+    public IUserProfileRepository _userProfileRepository;
     private bool _disposed;
-    public UnitOfWorkRepository(UserProjectDbContext context,IUserProfileRepository userProfileRepository,IUserRepository userRepository)
+    public UnitOfWorkRepository(UserProjectDbContext context/*,IUserProfileRepository userProfileRepository,IUserRepository userRepository*/)
     {
         _context = context;
-        this.UserRepository = userRepository;
-        this.UserProfileRepository = userProfileRepository;
+        //this.UserRepository = userRepository;
+        //this.UserProfileRepository = userProfileRepository;
         _disposed = false;
     }
+    public IUserProfileRepository UserProfileRepository => _userProfileRepository ??= new UserProfileRepository(_context);
+    public IUserRepository UserRepository=>_userRepository ??= new UserRepository(_context);
 
    public async Task<int> SaveChangesAsync(CancellationToken cancellationToken=default)
     {

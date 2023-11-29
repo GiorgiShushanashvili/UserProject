@@ -13,6 +13,7 @@ public class UserProfileConfig:IEntityTypeConfiguration<UserProfile>
 {
     public void Configure(EntityTypeBuilder<UserProfile> builder)
     {
+        builder.HasOne<User>();
         builder.ToTable("UserProfile");
         builder.HasKey(x => x.Id);
         builder.Property(x => x.FirstName).HasColumnType("Nvarchar(50)").IsRequired();

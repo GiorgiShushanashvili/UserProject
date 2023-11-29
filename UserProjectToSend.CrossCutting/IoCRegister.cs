@@ -21,6 +21,7 @@ public static class IoCRegister
     private static IServiceCollection AddServices(IServiceCollection services)
     {
         services.AddScoped<IUserService, UserService>();
+        services.AddScoped<IUserProfileService, UserProfileService>();
         services.AddScoped<ISecurityService, SecurityService>();
         return services;
     }
